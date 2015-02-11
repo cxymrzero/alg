@@ -50,4 +50,3 @@ class Solution:
             nodeB = nodeB.next
 
         return None
-
