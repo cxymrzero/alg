@@ -10,5 +10,8 @@ class Solution:
         new_s = ' '.join(new_l[::-1])
         return new_s
 
+    def reverseWords2(self, s):
+        return ''.join(map(lambda x: x.strip(' '), s.split(' ')[::-1]))
+
 s = Solution()
 print s.reverseWords("a")
